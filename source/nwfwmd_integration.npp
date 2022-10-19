@@ -1,0 +1,38 @@
+<NotepadPlus>
+    <Project name="System Integration">
+        <File name="create_database_link_prod.nwfwmd.state.fl.us.sql" />
+        <File name="create_feature_classes_system_integration.py" />
+        <File name="create_package_gis_refresh.sql" />
+        <File name="sjrwmd_exploration.sql" />
+        <File name="Z:\manniongeo\projects\nwfwmd\2015-01-13_gis_support\source\land_management\sql_text.py" />
+    </Project>
+    <Project name="Well Permits">
+        <File name="create_well_permits_diag.sql" />
+        <File name="wp_diag_summary.sql" />
+    </Project>
+    <Project name="Data">
+        <Folder name="orcl">
+            <File name="development_data_refresh\orcl\mannion.expdp" />
+            <File name="development_data_refresh\orcl\mannion.impdp" />
+            <File name="development_data_refresh\orcl\recreate_users_local.sql" />
+        </Folder>
+        <Folder name="nwprod">
+            <File name="development_data_refresh\nwprod\__REFRESH_WORKFLOW_SOP__.txt" />
+            <File name="development_data_refresh\nwprod\nwprod_development_drop_tables.sql" />
+            <File name="development_data_refresh\nwprod\nwprod_development_grant.sql" />
+            <File name="development_data_refresh\nwprod\nwprod_development_ingres.impdp" />
+            <File name="development_data_refresh\nwprod\nwprod_development_reguser.impdp" />
+            <File name="development_data_refresh\nwprod\nwprod_development_sjr.impdp" />
+            <File name="development_data_refresh\nwprod\orcl_m_mannion_ctas_nwprod.sql" />
+            <File name="development_data_refresh\nwprod\orcl_m_mannion_drop_tables.sql" />
+            <File name="development_data_refresh\nwprod\orcl_m_mannion_nwprod.expdp" />
+        </Folder>
+    </Project>
+    <Project name="Configuration Management">
+        <File name="install_cm.sql" />
+    </Project>
+    <Project name="Scratch">
+        <File name="sjrwmd_exploration.sql" />
+        <File name="sql_scratch.sql" />
+    </Project>
+</NotepadPlus>

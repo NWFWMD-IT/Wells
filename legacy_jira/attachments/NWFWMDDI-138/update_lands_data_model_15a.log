@@ -1,0 +1,117 @@
+2021-01-30 17:07:22 ****************************************
+2021-01-30 17:07:22 Updating Land Management data model in geodatabase: Database Connections/gis-sql$lands$gis.sde
+2021-01-30 17:07:22 ****************************************
+2021-01-30 17:07:22 Updating values for domain: Protection Type
+2021-01-30 17:07:24     Found domain
+2021-01-30 17:07:24     Deleting existing coded values
+2021-01-30 17:07:26     Adding updated coded values:
+2021-01-30 17:07:26             Berm                           Berm
+2021-01-30 17:07:26             Fenced                         Fenced
+2021-01-30 17:07:27             Flagged                        Flagged
+2021-01-30 17:07:27             Posted                         Posted
+2021-01-30 17:07:28             Multiple                       Multiple
+2021-01-30 17:07:28             Other                          Other
+2021-01-30 17:07:29 Creating new domains
+2021-01-30 17:07:29     Creating domain Party Type 8
+2021-01-30 17:07:29             Adding coded values
+2021-01-30 17:07:29                     County: County
+2021-01-30 17:07:30                     District: District
+2021-01-30 17:07:30                     Federal: Federal
+2021-01-30 17:07:30                     Municipality: Municipality
+2021-01-30 17:07:31                     State: State
+2021-01-30 17:07:31                     Multiple: Multiple
+2021-01-30 17:07:31                     Other: Other
+2021-01-30 17:07:32             Domain created.
+2021-01-30 17:07:32     Creating domain Project Schedule
+2021-01-30 17:07:32             Adding coded values
+2021-01-30 17:07:32                     Ahead: Ahead
+2021-01-30 17:07:33                     On Track: On Track
+2021-01-30 17:07:33                     Behind: Behind
+2021-01-30 17:07:33             Domain created.
+2021-01-30 17:07:33     Creating domain Project Site Type
+2021-01-30 17:07:34             Adding coded values
+2021-01-30 17:07:34                     Conservation Easement: Conservation Easement
+2021-01-30 17:07:34                     District Fee: District Fee
+2021-01-30 17:07:34                     Government: Government
+2021-01-30 17:07:35                     Migration: Migration
+2021-01-30 17:07:35                     Private: Private
+2021-01-30 17:07:36             Domain created.
+2021-01-30 17:07:36     Creating domain Project Type
+2021-01-30 17:07:36             Adding coded values
+2021-01-30 17:07:36                     Access: Access
+2021-01-30 17:07:36                     Facility: Facility
+2021-01-30 17:07:37                     Forestry: Forestry
+2021-01-30 17:07:37                     Land Management: Land Management
+2021-01-30 17:07:37                     Mitigation: Mitigation
+2021-01-30 17:07:38                     Recreation: Recreation
+2021-01-30 17:07:38                     Restoration: Restoration
+2021-01-30 17:07:39                     Road: Road
+2021-01-30 17:07:39                     Storm Debris Cleanup: Storm Debris Cleanup
+2021-01-30 17:07:39                     Other: Other
+2021-01-30 17:07:40             Domain created.
+2021-01-30 17:07:40     Creating domain Units 4
+2021-01-30 17:07:40             Adding coded values
+2021-01-30 17:07:40                     Acres: Acres
+2021-01-30 17:07:40                     Feet: Feet
+2021-01-30 17:07:41                     Square Feet: Square Feet
+2021-01-30 17:07:41                     Square Miles: Square Miles
+2021-01-30 17:07:42                     Yards: Yards
+2021-01-30 17:07:42             Domain created.
+2021-01-30 17:07:42 Creating feature class: Project
+2021-01-30 17:07:42     Creating feature class Project
+2021-01-30 17:07:44             Setting alias to Project
+2021-01-30 17:07:44             Adding attributes
+2021-01-30 17:07:44                     Region
+2021-01-30 17:07:45                     WMA
+2021-01-30 17:07:46                     Tract
+2021-01-30 17:07:46                     Type
+2021-01-30 17:07:47                     Name
+2021-01-30 17:07:47                     SizeEstimate
+2021-01-30 17:07:48                     Units
+2021-01-30 17:07:49                     SiteType
+2021-01-30 17:07:49                     ProjectStatus
+2021-01-30 17:07:50                     ScheduleStart
+2021-01-30 17:07:51                     ScheduleEnd
+2021-01-30 17:07:51                     ScheduleStatus
+2021-01-30 17:07:52                     Priority
+2021-01-30 17:07:52                     EstimatedMonths
+2021-01-30 17:07:53                     Deadline
+2021-01-30 17:07:53                     ProjectStart
+2021-01-30 17:07:54                     ProjectEnd
+2021-01-30 17:07:55                     NeedsProtection
+2021-01-30 17:07:55                     ProtectionType
+2021-01-30 17:07:56                     IsPermitRequired
+2021-01-30 17:07:56                     IsPermitted
+2021-01-30 17:07:57                     PermitNotes
+2021-01-30 17:07:57                     EstimatedCost
+2021-01-30 17:07:58                     ActualCost
+2021-01-30 17:07:59                     FundingSource
+2021-01-30 17:07:59                     FundingAgency
+2021-01-30 17:08:00                     Contractor
+2021-01-30 17:08:00                     ConstructionDetails
+2021-01-30 17:08:01                     ContractNumber
+2021-01-30 17:08:02                     UplandWetland
+2021-01-30 17:08:02                     ProjectLocation
+2021-01-30 17:08:03                     LastReviewDate
+2021-01-30 17:08:03                     HasNotification
+2021-01-30 17:08:04                     Comments
+2021-01-30 17:08:05             Adding subtypes
+2021-01-30 17:08:05                     Setting subtype field to Region
+2021-01-30 17:08:06                     1: West
+2021-01-30 17:08:06                     2: Central
+2021-01-30 17:08:07                     3: East
+2021-01-30 17:08:07             Adding subtype-specific domains
+2021-01-30 17:08:07                     Field Tract
+2021-01-30 17:08:07                             1: Tract - West
+2021-01-30 17:08:08                             2: Tract - Central
+2021-01-30 17:08:09                             3: Tract - East
+2021-01-30 17:08:10             Adding global ID
+2021-01-30 17:08:11             Enabling editor tracking
+2021-01-30 17:08:12             Enabling archiving
+2021-01-30 17:08:14             Enabling attachments
+2021-01-30 17:08:17             Granting privileges
+2021-01-30 17:08:17                     mapserver      GRANT     GRANT
+2021-01-30 17:08:19             Created.
+2021-01-30 17:08:19 ***** REMINDER *****
+2021-01-30 17:08:19 Run update_lands_data_model_15b.sql as next step
+2021-01-30 17:08:19 Done.

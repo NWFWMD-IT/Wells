@@ -1,0 +1,42 @@
+2021-01-30 17:12:16 ****************************************
+2021-01-30 17:12:16 Updating Land Management data model in geodatabase: Database Connections/gis-sql$lands$gis.sde
+2021-01-30 17:12:16 with content from geodatabase: Database Connections/gis-sql$gis$gis.sde
+2021-01-30 17:12:16 ****************************************
+2021-01-30 17:12:16 Copying features from gis.gis.Project_Area to lands.gis.Project
+2021-01-30 17:12:18     Mapping input to output fields
+2021-01-30 17:12:18             Region > Region
+2021-01-30 17:12:19             WMA > WMA
+2021-01-30 17:12:20             Tract > Tract
+2021-01-30 17:12:20             ProjectType > Type
+2021-01-30 17:12:20             Name > Name
+2021-01-30 17:12:21             EstimatedProjSize > SizeEstimate
+2021-01-30 17:12:21             ProjectSizeUnits > Units
+2021-01-30 17:12:21             SiteType > SiteType
+2021-01-30 17:12:21             ProjectStatus > ProjectStatus
+2021-01-30 17:12:22             ScheduleStart > ScheduleStart
+2021-01-30 17:12:22             ScheduleEnd > ScheduleEnd
+2021-01-30 17:12:22             ScheduleStatus > ScheduleStatus
+2021-01-30 17:12:23             Priority > Priority
+2021-01-30 17:12:23             EstimatedMonths > EstimatedMonths
+2021-01-30 17:12:23             Deadline > Deadline
+2021-01-30 17:12:24             ProjectStartDate > ProjectStart
+2021-01-30 17:12:24             ProjectEndDate > ProjectEnd
+2021-01-30 17:12:24             ProtectionNeeded > NeedsProtection
+2021-01-30 17:12:24             ProtectionType > ProtectionType
+2021-01-30 17:12:25             IsPermitRequired > IsPermitRequired
+2021-01-30 17:12:25             IsPermitted > IsPermitted
+2021-01-30 17:12:25             PermitNotes > PermitNotes
+2021-01-30 17:12:26             EstimatedCost > EstimatedCost
+2021-01-30 17:12:26             ActualCost > ActualCost
+2021-01-30 17:12:26             FundingSource > FundingSource
+2021-01-30 17:12:26             FundingAgency > FundingAgency
+2021-01-30 17:12:27             Contractor > Contractor
+2021-01-30 17:12:27             ConstructionDetails > ConstructionDetails
+2021-01-30 17:12:27             ContractNumber > ContractNumber
+2021-01-30 17:12:28             UplandWetland > UplandWetland
+2021-01-30 17:12:28             ProjectLocation > ProjectLocation
+2021-01-30 17:12:28             LastReviewDate > LastReviewDate
+2021-01-30 17:12:28             HasNotification > HasNotification
+2021-01-30 17:12:29             Comments > Comments
+2021-01-30 17:12:29     Copying features
+2021-01-30 17:12:31 Done.
